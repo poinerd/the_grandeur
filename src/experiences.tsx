@@ -5,19 +5,19 @@ export default function Experiences(){
     
     return(
         <div id="Experiences" className=" flex flex-col bg-[#fbfdffff] p-2 w-full pt-3 pb-10 ">
-            <h3>EXPERIENCES 💼</h3>
+            <h3 className="border-1 border-black bg-black text-white rounded-xl p-2 inline-block w-fit ">EXPERIENCES 💼</h3>
             <div className="flex flex-col gap-5 justify-center items-center md:flex-row ">
                 {experiences.map((experience)=>{
                     return (
-                        <div className="flex flex-col w-[90%] bg-white p-5 rounded-md   md:w-[30%] md:wrap shadow-sm">
-                            <div className="flex flex-row gap-[2rem] items-center justify-center bg-blue-50" >
-                                <img src={experience.logo} width={'180px'}></img>
+                        <div className="flex flex-col w-[90%] bg-white p-5 rounded-md   md:w-fit md:wrap shadow-sm">
+                            <div className="flex flex-row items-center justify-start bg-[#fff] w-fit rounded-xl" >
+                                <img src={experience.logo} width={'100px'}></img>
                             </div>
                             
 
-                            <div className='flex flex-row justify-between'>
+                            <div className='flex flex-row justify-between gap-3 items-center'>
                             <h2 className='italic'>{experience.role}</h2>
-                            <p className='rounded-xl'>{experience.duration}</p>
+                            <p className='rounded-md bg-blue-200 p-2 md:text-9xl'>{experience.duration}</p>
                             </div>
 
                             <p>{experience.description}</p>

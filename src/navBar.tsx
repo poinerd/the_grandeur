@@ -18,10 +18,10 @@ export default function NavBar(){
 
 
     return(
-        <div className="flex flex-row p-5 justify-between items-center  gap-2 relative">
+        <div className="flex flex-row p-5 pl-6 pr-5 justify-between items-center  gap-2 relative">
             <h2>TheGrandeur</h2>
             <div className="flex flex-row gap-10 justify-between items-center">
-                   <button className="bg-transparent p-2 border-2 border-blue-200" style={{backgroundColor:'transparent', color:'blue'}}>let's Talk</button>
+                   <button className="bg-transparent p-2 border-1 border-black hover:bg-black letsTalk"  style={{backgroundColor:'white', color:'black'}}>let's Talk</button>
             <li className="flex flex-row gap-4 hidden md:flex">
                 <ul onClick={() => scrollToSection("Projects")} className="navBarLinks" >Projects</ul>
                 <ul onClick={() => scrollToSection("Experiences")} className="navBarLinks">Experience</ul>
@@ -37,7 +37,7 @@ export default function NavBar(){
 
             </button>
 
-          <li  className={`absolute top-24 right-0 p-10 bg-white list-none 
+          <li   className={`absolute top-24 right-0 p-10 bg-white shadow-sm list-none 
   ${ismenu ? 'block' : 'hidden'} 
   md:hidden`}>
             <ul  onClick={() => scrollToSection("Projects")}>Projects</ul>

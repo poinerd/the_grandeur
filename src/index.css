@@ -7,16 +7,39 @@
 
 * {
 
-  font-family: "DM Serif Text", serif;
-  font-weight: 400;
+
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
   font-style: normal;
 
 
+/* .dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+} */
 
 
 
 
  
+}
+
+.letsTalk{
+  @apply hover:bg-black text-white;
+
+  
+
+}
+
+.readCV{
+   @apply hover:bg-black text-white;
+
+}
+
+
+.icons img{
+  @apply hover:w-[1rem]  transition
 }
 
 .navBarLinks{
@@ -30,6 +53,11 @@ h2{
   @apply text-2xl font-semibold mb-3
 }
 
+
+h3{
+  @apply text-[0.8rem]  mb-3
+}
+
 p{
   @apply text-[1rem] mb-3 leading-relaxed;
 }
@@ -37,3 +65,22 @@ p{
 button {
   @apply px-3 py-3 bg-black font-bold text-white rounded hover:bg-[#36454F] transition rounded-xl;
 }
+
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradientMove {
+  background-size: 200% 200%;
+  animation: gradientMove 3s ease-in-out infinite;
+}
+

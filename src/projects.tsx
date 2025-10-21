@@ -8,8 +8,8 @@ export default function Projects(){
 
 
     return(
-        <div id="Projects" className=" flex flex-col bg-[#fbfdffff] p-2 w-full border-1 border-black pt-3 pb-10 ">
-              <h3>PROJECTS 🧩</h3>
+        <div id="Projects" className=" flex flex-col bg-[#fbfdffff] p-2 w-full border-1 border-[#EEEEEE] pt-3 pb-10 ">
+              <h3 className="border-1 border-black bg-black text-white rounded-xl p-2 inline-block w-fit">PROJECTS 🧩</h3>
               <div className="flex flex-col gap-5 justify-center items-center md:flex-row">
                 {projects.map((project)=>{
                     return(

@@ -5,7 +5,7 @@ import ContactMe from './contactMe'
 import NavBar from './navBar'
 import Projects from './projects'
 import Experiences from './experiences'
-import Art from './art'
+// import Art from './art'
 
 import './App.css'
 
@@ -19,7 +19,7 @@ function App() {
       <Projects />
       <Experiences/>
        <AboutMe/>
-        <Art/>
+        {/* <Art/> */}
        <ContactMe/>
     
     </>
