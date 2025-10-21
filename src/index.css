@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+/* .dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+} */
+
+
+ 
+}
+
+h1{
+  @apply text-3xl font-bold mb-4
+}
+
+h2{
+  @apply text-2xl font-semibold mb-3
+}
+
+p{
+  @apply text-[1rem] mb-3 leading-relaxed;
+}
+
+button {
+  @apply px-3 py-2 bg-blue-600 font-bold text-white rounded hover:bg-blue-700 transition rounded-xl;
+}
