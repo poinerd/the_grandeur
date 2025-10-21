@@ -3,7 +3,7 @@ import linkedln from './assets/linkedin.svg'
 import dribble from './assets/dribble.svg'
 import github from './assets/github.svg'
 import twitter from './assets/twitter.svg'
-import bg from './assets/Background.png'
+
 
 
 
