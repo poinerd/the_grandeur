@@ -1,6 +1,6 @@
 export default function AboutMe(){
     return(
-        <div className=" flex flex-col bg-blue-100 p-5  justify-center items-center text-center ">
+        <div id="About" className=" flex flex-col bg-blue-100 p-5  justify-center items-center text-center ">
             <h2>About me</h2>
             <p>
                 I grew up in Nigeria doodling in my book and making car models with noodles cartons. I'm a creative person with a love for making things. 

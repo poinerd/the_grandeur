@@ -15,7 +15,7 @@ function App() {
     <>
       <NavBar/>
       <HeroSection/>
-      <Projects/>
+      <Projects />
       <Experiences/>
        <AboutMe/>
        <ContactMe/>

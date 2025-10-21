@@ -28,6 +28,24 @@ import js from './assets/tags/js.svg'
 
         },
 
+        {
+            projectName: 'Spendre',
+            projectType: 'Engineering',
+            projectDescription: 'Kiosk is a prototype of an e commerce tool that allows small busines owners to creater an online store',
+            projectLinks: {
+            live: 'https://kiosk-demo-alpha.vercel.app/',
+            github: null,
+            caseStudy: 'https://github.com/poinerd/kiosk_demo'
+            },
+            tags:[
+                figma, css, html, js
+
+            ]
+         
+
+        },
+       
+         
 
      
           

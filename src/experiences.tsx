@@ -4,7 +4,7 @@ import experiences from './experienceList'
 export default function Experiences(){
     
     return(
-        <div className=" flex flex-col bg-blue-100 p-2 w-full ">
+        <div id="Experiences" className=" flex flex-col bg-blue-100 p-2 w-full ">
             <h3>EXPERIENCES</h3>
             <div className="flex flex-col gap-5 justify-center items-center">
                 {experiences.map((experience)=>{

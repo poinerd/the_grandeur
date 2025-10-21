@@ -3,7 +3,9 @@ import linkedln from './assets/linkedin.svg'
 import dribble from './assets/dribble.svg'
 import github from './assets/github.svg'
 import twitter from './assets/twitter.svg'
-import { useState } from 'react'
+import bg from './assets/Background.png'
+
+
 
 
 
@@ -16,7 +18,11 @@ export default function HeroSection(){
 
 
     return(
-        <div className=" flex flex-col bg-white p-10  justify-center items-center text-center ">
+        <div className=" flex flex-col bg-white p-10  justify-center items-center text-center " 
+     style={
+        { backgroundImage: `url(${bg})`}
+        
+        }>
             <img src={img} style={{width:'9rem',marginBottom:'1rem'}}></img>
             <h1> <span className='font-md'>Hi, My name is Emmanuel & </span> <br/>I love to design and build great products</h1>
              {/* <p> My interest and expetiese spans across product design, brand design and software development</p> */}
