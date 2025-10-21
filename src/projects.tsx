@@ -8,12 +8,12 @@ export default function Projects(){
 
 
     return(
-        <div id="Projects" className=" flex flex-col bg-blue-50 p-2 w-full ">
-              <h3>PROJECTS</h3>
+        <div id="Projects" className=" flex flex-col bg-[#fbfdffff] p-2 w-full border-1 border-black pt-3 pb-10 ">
+              <h3>PROJECTS 🧩</h3>
               <div className="flex flex-col gap-5 justify-center items-center md:flex-row">
                 {projects.map((project)=>{
                     return(
-                        <div className="flex flex-col w-[90%] bg-white p-5 rounded-md md:w-[30%] md:wrap">
+                        <div className="flex flex-col w-[90%] bg-white p-5 rounded-md md:w-[30%] md:wrap shadow-md hover:shadow-lg">
                             <div className="bg-blue-50 h-[9rem]"> here</div>
                             
                             <div className="flex flex-row gap-20 justify-between items-center"> 

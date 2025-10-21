@@ -3,7 +3,7 @@ import { useState } from "react"
 
 export default function NavBar(){
 
-    const [ismenu, setMenu] = useState(true)
+    const [ismenu, setMenu] = useState(false)
 
     function toogleMenu(){
         console.log('hello there')
@@ -21,11 +21,12 @@ export default function NavBar(){
         <div className="flex flex-row p-5 justify-between items-center  gap-2 relative">
             <h2>TheGrandeur</h2>
             <div className="flex flex-row gap-10 justify-between items-center">
-                   <button className="bg-blue-400 p-2">let's Talk</button>
+                   <button className="bg-transparent p-2 border-2 border-blue-200" style={{backgroundColor:'transparent', color:'blue'}}>let's Talk</button>
             <li className="flex flex-row gap-4 hidden md:flex">
-                <ul onClick={() => scrollToSection("Projects")}>Projects</ul>
-                <ul onClick={() => scrollToSection("Experiences")}>Experience</ul>
-                <ul onClick={() => scrollToSection("About")}>About</ul>  
+                <ul onClick={() => scrollToSection("Projects")} className="navBarLinks" >Projects</ul>
+                <ul onClick={() => scrollToSection("Experiences")} className="navBarLinks">Experience</ul>
+                <ul onClick={() => scrollToSection("Art")} className="navBarLinks">Art</ul>
+                <ul onClick={() => scrollToSection("About")} className="navBarLinks">About</ul>  
             </li>
             </div>
 
@@ -41,6 +42,7 @@ export default function NavBar(){
   md:hidden`}>
             <ul  onClick={() => scrollToSection("Projects")}>Projects</ul>
             <ul onClick={() => scrollToSection("Experiences")}>Expereince</ul>
+            <ul onClick={() => scrollToSection("Art")}>Art</ul>
             <ul onClick={() => scrollToSection("About")}>About</ul>
           </li>
          

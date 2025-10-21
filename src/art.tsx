@@ -1,7 +1,7 @@
-export default function AboutMe(){
+export default function Art(){
     return(
-        <div id="About" className=" flex flex-col bg-[#fbfdffff] p-2  justify-center items-center text-center pt-3 pb-10 border-1 border-[#252525ff]">
-            <h2>About me</h2>
+        <div id="Art" className=" flex flex-col p-5  justify-center items-center text-center ">
+            <h2>Art</h2>
             <p>
                 I grew up in Nigeria doodling in my book and making car models with noodles cartons. I'm a creative person with a love for making things. 
 and it has become my ambition to dedicate my life to making great stuff- Design, art, writing, software and hardware. I love slow music and great paintings. I love to tell good jokes 

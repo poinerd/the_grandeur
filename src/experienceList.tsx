@@ -7,7 +7,7 @@ let experiences = [
             logo: ufarm,
             role: 'Graphic Designer',
             name: 'Ufarm Africa',
-            description: ' I did great designs taht resulted in coversion',
+            description: 'I did great designs taht resulted in coversion',
             image:'image',
             duration: '2025-2026'
 
@@ -16,7 +16,7 @@ let experiences = [
           {   
             logo: colab,
             name: 'Colab Innovation Hub, Kaduna',
-            role: 'Graphic Designer',
+            role: 'Software Development Intern',
             description: ' Software development intern',
             image:'image',
             duration: '2025-2026'

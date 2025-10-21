@@ -4,19 +4,24 @@ import experiences from './experienceList'
 export default function Experiences(){
     
     return(
-        <div id="Experiences" className=" flex flex-col bg-blue-100 p-2 w-full ">
-            <h3>EXPERIENCES</h3>
-            <div className="flex flex-col gap-5 justify-center items-center">
+        <div id="Experiences" className=" flex flex-col bg-[#fbfdffff] p-2 w-full pt-3 pb-10 ">
+            <h3>EXPERIENCES 💼</h3>
+            <div className="flex flex-col gap-5 justify-center items-center md:flex-row ">
                 {experiences.map((experience)=>{
                     return (
-                        <div className="flex flex-col w-[80%] bg-white p-5 rounded-xl ">
-                            <div className="flex flex-row gap-[2rem] items-center justify-center bg-white" >
+                        <div className="flex flex-col w-[90%] bg-white p-5 rounded-md   md:w-[30%] md:wrap shadow-sm">
+                            <div className="flex flex-row gap-[2rem] items-center justify-center bg-blue-50" >
                                 <img src={experience.logo} width={'180px'}></img>
                             </div>
+                            
 
-                            <p>{experience.role}</p>
+                            <div className='flex flex-row justify-between'>
+                            <h2 className='italic'>{experience.role}</h2>
+                            <p className='rounded-xl'>{experience.duration}</p>
+                            </div>
+
                             <p>{experience.description}</p>
-                            <p className='rounded-xl bg-blue-200 p-1 w-[50%]'>{experience.duration}</p>
+                          
                             
                             
 
