@@ -44,6 +44,24 @@ import js from './assets/tags/js.svg'
          
 
         },
+
+
+         {
+            projectName: 'Arcade TTT',
+            projectType: 'Engineering',
+            projectDescription: 'Kiosk is a prototype of an e commerce tool that allows small busines owners to creater an online store',
+            projectLinks: {
+            live: 'https://arcade-ttt.vercel.app/',
+            github: 'https://github.com/poinerd/arcade_ttt',
+            caseStudy: 'null'
+            },
+            tags:[
+                figma, css, html, js
+
+            ]
+         
+
+        },
        
          
 
