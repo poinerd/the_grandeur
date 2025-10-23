@@ -53,7 +53,7 @@ import js from './assets/tags/js.svg'
             projectLinks: {
             live: 'https://arcade-ttt.vercel.app/',
             github: 'https://github.com/poinerd/arcade_ttt',
-            caseStudy: 'null'
+            caseStudy: null
             },
             tags:[
                 figma, css, html, js
