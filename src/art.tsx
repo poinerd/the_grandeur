@@ -3,10 +3,8 @@ export default function Art(){
         <div id="Art" className=" flex flex-col p-5  justify-center items-center text-center ">
             <h2>Art</h2>
             <p>
-                I grew up in Nigeria doodling in my book and making car models with noodles cartons. I'm a creative person with a love for making things. 
-and it has become my ambition to dedicate my life to making great stuff- Design, art, writing, software and hardware. I love slow music and great paintings. I love to tell good jokes 
-
-
+             As a kid, art was the first thing i did well. I love to paint and write. I believe art is one of the 
+             greatest medium we have to express our innermost fears, stories and journey. 
             </p>
         </div>
     )

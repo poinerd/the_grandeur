@@ -9,7 +9,7 @@ export default function Experiences(){
             <div className="flex flex-col gap-5 justify-center items-center md:flex-row ">
                 {experiences.map((experience)=>{
                     return (
-                        <div className="flex flex-col w-[90%] bg-white p-5 rounded-md   md:w-fit md:wrap shadow-sm">
+                        <div className="flex flex-col w-[90%] bg-white p-5 rounded-md   md:w-fit md:wrap shadow-md hover:shadow-lg">
                             <div className="flex flex-row items-center justify-start bg-[#fff] w-fit rounded-xl" >
                                 <img src={experience.logo} width={'100px'}></img>
                             </div>

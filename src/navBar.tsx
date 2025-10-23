@@ -1,6 +1,5 @@
 import { useState } from "react"
 
-
 export default function NavBar(){
 
     const [ismenu, setMenu] = useState(false)
@@ -10,7 +9,7 @@ export default function NavBar(){
         setMenu(!ismenu)
     }
 
-    function scrollToSection(id: any) {
+function scrollToSection(id: any) {
     const element = document.getElementById(id);
     element?.scrollIntoView({ behavior: "smooth" });
   }
@@ -21,11 +20,11 @@ export default function NavBar(){
         <div className="flex flex-row p-5 pl-6 pr-5 justify-between items-center  gap-2 relative">
             <h2>TheGrandeur</h2>
             <div className="flex flex-row gap-10 justify-between items-center">
-                   <button className="bg-transparent p-2 border-1 border-black hover:bg-black letsTalk"  style={{backgroundColor:'white', color:'black'}}>let's Talk</button>
+                   <button className="bg-transparent p-2 border-1 border-black hover:bg-black"  style={{backgroundColor:'white', color:'black'}} onClick={() => scrollToSection("contactMe")} >let's Talk</button>
             <li className="flex flex-row gap-4 hidden md:flex">
                 <ul onClick={() => scrollToSection("Projects")} className="navBarLinks" >Projects</ul>
                 <ul onClick={() => scrollToSection("Experiences")} className="navBarLinks">Experience</ul>
-                <ul onClick={() => scrollToSection("Art")} className="navBarLinks">Art</ul>
+                {/* <ul onClick={() => scrollToSection("Art")} className="navBarLinks">Art</ul> */}
                 <ul onClick={() => scrollToSection("About")} className="navBarLinks">About</ul>  
             </li>
             </div>
@@ -42,7 +41,7 @@ export default function NavBar(){
   md:hidden`}>
             <ul  onClick={() => scrollToSection("Projects")}>Projects</ul>
             <ul onClick={() => scrollToSection("Experiences")}>Expereince</ul>
-            <ul onClick={() => scrollToSection("Art")}>Art</ul>
+            {/* <ul onClick={() => scrollToSection("Art")}>Art</ul> */}
             <ul onClick={() => scrollToSection("About")}>About</ul>
           </li>
          
@@ -50,3 +49,6 @@ export default function NavBar(){
         </div>
     )
 }
+
+
+

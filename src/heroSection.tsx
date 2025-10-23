@@ -5,7 +5,10 @@ import github from './assets/github.svg'
 import twitter from './assets/twitter.svg'
 
 
-
+function scrollToSection(id: any) {
+    const element = document.getElementById(id);
+    element?.scrollIntoView({ behavior: "smooth" });
+  }
 
 
 
@@ -30,7 +33,7 @@ export default function HeroSection() {
       </div>
 
       <div className="flex gap-3 mt-5">
-        <button>Let's Talk</button>
+        <button onClick={() => scrollToSection("contactMe")}>Let's Talk</button>
         <button className='readCV' style={{ backgroundColor: '#f1f1f1ff', border: '1px solid black', color: 'black' }}>
           <a href="https://drive.google.com/file/d/1lvU0gYOHqfiBddebvNfdrmFgrL5V0fBm/view?usp=drive_link">Read my CV</a>
         </button>

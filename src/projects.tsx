@@ -16,7 +16,7 @@ export default function Projects(){
                         <div className="flex flex-col w-[90%] bg-white p-5 rounded-md md:w-[30%] md:wrap shadow-md hover:shadow-lg">
                             <div className="bg-blue-50 h-[9rem]"> here</div>
                             
-                            <div className="flex flex-row gap-20 justify-between items-center"> 
+                            <div className="flex flex-row gap-20 justify-between items-center mt-5"> 
                             <h2>  {project.projectName}</h2>
 
                              <div className="flex gap-2 justify-center items-center">
@@ -57,8 +57,6 @@ export default function Projects(){
           </a>
         )}
       </div> 
-
-        
                             </div>
 
                            <p>{project.projectDescription}</p>

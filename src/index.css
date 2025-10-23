@@ -81,6 +81,15 @@ button {
 
 .animate-gradientMove {
   background-size: 200% 200%;
-  animation: gradientMove 3s ease-in-out infinite;
+  animation: gradientMove 2s ease-in-out infinite;
 }
 
+.contactForm div{
+  @apply flex flex-col items-start bg-transparent w-fit
+}
+
+.contactForm div input{
+
+ @apply bg-white rounded-md p-2 text-black
+
+}
