@@ -16,9 +16,10 @@ function App() {
     <>
       <NavBar/>
       <HeroSection/>
+         <AboutMe/>
       <Projects />
       <Experiences/>
-       <AboutMe/>
+    
         {/* <Art/> */}
        <ContactMe/>
     

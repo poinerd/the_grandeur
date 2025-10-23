@@ -29,14 +29,14 @@ function scrollToSection(id: any) {
             </li>
             </div>
 
-            <button onClick={toogleMenu}  className="md:hidden" style={{backgroundColor: 'transparent', padding:'1rem'}}> 
+            <button onClick={toogleMenu} className="md:hidden" style={{backgroundColor: 'transparent', padding:'1rem'}}> 
                 <svg style= {{ color:"black"}} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
 </svg>
 
             </button>
 
-          <li   className={`absolute top-24 right-0 p-10 bg-white shadow-sm list-none 
+          <li   className={`absolute top-24 right-0 p-10 bg-white shadow-sm list-none z-2
   ${ismenu ? 'block' : 'hidden'} 
   md:hidden`}>
             <ul  onClick={() => scrollToSection("Projects")}>Projects</ul>

@@ -17,7 +17,7 @@ export default function Experiences(){
 
                             <div className='flex flex-row justify-between gap-3 items-center'>
                             <h2 className='italic'>{experience.role}</h2>
-                            <p className='rounded-md bg-blue-200 p-2 md:text-9xl'>{experience.duration}</p>
+                            <p className='rounded-md bg-blue-200 p-2 md:text-90xl'>{experience.duration}</p>
                             </div>
 
                             <p>{experience.description}</p>
